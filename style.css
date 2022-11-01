@@ -37,7 +37,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -67,7 +67,7 @@ button {
   cursor: pointer;
 }
 
-button: hover {
+button:hover {
   color: #3a3a3a;
 }
 
@@ -96,7 +96,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]: focus {
+input[type="text"]:focus {
   color: #333;
 }
 
@@ -136,7 +136,7 @@ li > label {
 }
 
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 button.button-delete img {
@@ -145,7 +145,7 @@ button.button-delete img {
   transition: transform 200ms ease-in;
 }
 
-button.button-delete img: hover {
+button.button-delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -157,12 +157,12 @@ button.button-delete img: hover {
 
 /* Edit Task */
 li input[type=text] {
-  display: none
+  display: none;
 }
 
 .edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode label {
